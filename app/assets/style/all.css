@@ -14,3 +14,8 @@
         font-family: 'Azeret Mono', monospace;
     }
 }
+
+.nav-border{
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #62DB54 50%, #09ACF5 50%) 2;
+}

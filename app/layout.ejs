@@ -15,18 +15,31 @@
     <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
-<body>
-<nav>
-
+<body class="bg-dark">
+<nav class="py-6 nav-border">
+    <div class="container">
+        <div class="flex justify-between text-white items-center">
+            <div class="w-50">
+                <img src="./assets/images/logo.svg" alt="logo" class="w-[175px] h-[42px]">
+            </div>
+            <div class="w-50">
+                <ul class="flex">
+                    <li><a href="#" class="px-6 text-lg leading-[26px] hover:opacity-40">首頁</a></li>
+                    <li><a href="#" class="px-6 text-lg leading-[26px] hover:opacity-40">課程介紹</a></li>
+                    <li><a href="#" class="pl-6 text-lg leading-[26px] hover:opacity-40">
+                            <span class="material-icons align-bottom mr-[6px]">account_circle</span>
+                            登入</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </nav>
 <header class="header">
-    這是 header
 </header>
 
 <%- contents %>
 
 <footer class="footer">
-    footer
 </footer>
 <script src="./assets/js/vendors.js"></script>
 <script src="./assets/js/all.js"></script>

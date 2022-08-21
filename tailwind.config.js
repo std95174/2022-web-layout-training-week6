@@ -29,5 +29,18 @@ module.exports = {
     plugins: [
         require('@tailwindcss/forms'),
         require('@tailwindcss/typography'),
+        function ({addComponents}) {
+            addComponents({
+                '.container': {
+                    maxWidth: '360px',
+                    '@screen md': {
+                        maxWidth: '720px',
+                    },
+                    '@screen lg': {
+                        maxWidth: '1320px',
+                    },
+                }
+            })
+        }
     ],
 }
