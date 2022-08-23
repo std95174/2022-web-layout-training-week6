@@ -8,6 +8,8 @@
 }
 
 .swiper-pagination-bullet-active {
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     width: 16px;
     border-radius: 100px;
