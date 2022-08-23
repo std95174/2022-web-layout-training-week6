@@ -10,26 +10,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap"
           rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
-<body class="bg-dark">
+<body class="bg-[#000000]">
 <nav class="py-6 nav-border">
     <div class="container">
         <div class="flex justify-between text-white items-center">
             <div class="w-50">
-                <img src="./assets/images/logo.svg" alt="logo" class="w-[175px] h-[42px]">
+                <img src="./assets/images/logo.svg" alt="logo" class="w-[175px] h-[42px] hidden md:block">
+                <img src="./assets/images/logo2.svg" alt="logo" class="w-6 h-6 md:hidden">
             </div>
             <div class="w-50">
-                <ul class="flex">
+                <ul class="hidden md:flex">
                     <li><a href="#" class="px-6 text-lg leading-[26px] hover:opacity-40">首頁</a></li>
                     <li><a href="#" class="px-6 text-lg leading-[26px] hover:opacity-40">課程介紹</a></li>
                     <li><a href="#" class="pl-6 text-lg leading-[26px] hover:opacity-40">
                             <span class="material-icons align-bottom mr-[6px]">account_circle</span>
                             登入</a></li>
                 </ul>
+                <span class="material-icons text-primary align-bottom md:hidden">drag_handle</span>
             </div>
         </div>
     </div>

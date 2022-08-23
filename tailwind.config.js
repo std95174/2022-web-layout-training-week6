@@ -19,10 +19,11 @@ module.exports = {
         },
         extend: {
             colors: {
-                primary: '#62DB54', // 綠色
+                primary: '#62db54', // 綠色
                 secondary: '#09ACF5', // 藍色
-                gray: '#1C1C1C',
+                gray: '#C1C1C1',
                 dark: '#2D2D2D',
+                black: '#202020'
             },
         },
     },

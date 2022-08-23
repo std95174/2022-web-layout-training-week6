@@ -1,0 +1,14 @@
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    width: auto;
+}
+
+.swiper-pagination-bullet, .swiper-pagination-bullet-active {
+    background: #62db54;
+    opacity: 100;
+}
+
+.swiper-pagination-bullet-active {
+    transition: all 0.3s ease-in-out;
+    width: 16px;
+    border-radius: 100px;
+}

@@ -1,3 +1,4 @@
+@import "index.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +7,7 @@
     body {
         font-family: 'Noto Sans TC', sans-serif;
         line-height: 1.5;
+        color: white;
     }
 }
 
@@ -15,7 +17,7 @@
     }
 }
 
-.nav-border{
+.nav-border {
     border-bottom: 2px solid;
     border-image: linear-gradient(to right, #62DB54 50%, #09ACF5 50%) 2;
 }
